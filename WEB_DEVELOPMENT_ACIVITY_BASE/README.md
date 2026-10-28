@@ -144,6 +144,18 @@ It provides a foundation for learning HTML, CSS, webpage layout, responsive desi
 
 ---
 
+##Task-1(output)
+<img width="1872" height="880" alt="Screenshot 2026-10-28 201043" src="https://github.com/user-attachments/assets/c902fd6c-4c10-478e-bb37-fc8c2e531ee8" />
+
+
+##Task-2(output)
+<img width="1872" height="777" alt="Screenshot 2026-10-28 201105" src="https://github.com/user-attachments/assets/93b4e6be-c0b2-4d8c-810e-763f157141f3" />
+
+
+##Task-3(output)
+<img width="1895" height="887" alt="Screenshot 2026-10-28 201127" src="https://github.com/user-attachments/assets/25f42898-f4cd-4e1c-93e6-2893b723513a" />
+
+
 ## Student Information
 
 **Name:** Mahesh  
