@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus and Train Booking</title>
+    <link rel="stylesheet" href="code1.css">
+</head>
+<body>
+
+    <h1>Bus and Train Ticket Booking</h1>
+    <p>Book your journey easily and safely.</p>
+
+    <div class="booking">
+        <h2>Search Your Journey</h2>
+
+        <form>
+            <label>Travel Type:</label>
+            <select>
+                <option>Bus</option>
+                <option>Train</option>
+            </select>
+
+            <label>From:</label>
+            <input type="text" placeholder="Enter source city">
+
+            <label>To:</label>
+            <input type="text" placeholder="Enter destination city">
+
+            <label>Travel Date:</label>
+            <input type="date">
+
+            <label>Passengers:</label>
+            <input type="number" min="1" placeholder="Number of passengers">
+
+            <button type="button">Search Tickets</button>
+        </form>
+    </div>
+
+    <h2>Available Services</h2>
+
+    <table>
+        <tr>
+            <th>Service</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Fare</th>
+            <th>Action</th>
+        </tr>
+
+        <tr>
+            <td>Express Bus</td>
+            <td>8:00 AM</td>
+            <td>12:00 PM</td>
+            <td>₹400</td>
+            <td><button type="button">Book</button></td>
+        </tr>
+
+        <tr>
+            <td>Superfast Train</td>
+            <td>9:00 AM</td>
+            <td>1:00 PM</td>
+            <td>₹300</td>
+            <td><button type="button">Book</button></td>
+        </tr>
+
+        <tr>
+            <td>AC Bus</td>
+            <td>10:00 AM</td>
+            <td>2:00 PM</td>
+            <td>₹600</td>
+            <td><button type="button">Book</button></td>
+        </tr>
+    </table>
+
+    <div class="seats">
+        <h2>Select Your Seat</h2>
+        <p>Choose an available seat.</p>
+
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3</button>
+        <button type="button">4</button>
+        <button type="button">5</button>
+        <button type="button">6</button>
+    </div>
+
+    <div class="passenger">
+        <h2>Passenger Details</h2>
+
+        <form>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Age:</label>
+            <input type="number" placeholder="Enter your age">
+
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter phone number">
+
+            <button type="button">Confirm Booking</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Thank you for choosing our booking service.</p>
+    </footer>
+
+</body>
+</html>

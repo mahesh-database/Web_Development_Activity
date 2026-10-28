@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    background-color: #1d3557;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    color: #1d3557;
+}
+
+.booking, .passenger, .seats {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    text-align: left;
+}
+
+input, select {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2878b5;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d3557;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+}
+
+th {
+    background-color: #2878b5;
+    color: white;
+}
+
+.seats button {
+    width: 45px;
+}
+
+footer {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 8px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}

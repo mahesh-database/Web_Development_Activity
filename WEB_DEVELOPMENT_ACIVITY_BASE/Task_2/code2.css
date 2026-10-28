@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f8;
+    margin: 20px;
+}
+
+h1 {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: #243b55;
+}
+
+body > p {
+    text-align: center;
+}
+
+.summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.box {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #cccccc;
+}
+
+.box p {
+    font-size: 25px;
+    color: #2878b5;
+}
+
+.projects {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: white;
+    padding: 15px;
+    flex: 1;
+    min-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #cccccc;
+}
+
+progress {
+    width: 100%;
+}
+
+.task-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.column {
+    background-color: #e1e7ef;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.task {
+    background-color: white;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #2878b5;
+}
+
+.task h4 {
+    color: #243b55;
+}
+
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+    .summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .task-board {
+        grid-template-columns: 1fr;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+}
